@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.csproj", "{754B4BA6-C11E-4E4F-B09F-1E46C40B2AA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{215584BA-E07C-4A61-B973-4790D0408F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{D7F54B32-3510-4F6E-B0E2-5CA5C823A560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754B4BA6-C11E-4E4F-B09F-1E46C40B2AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754B4BA6-C11E-4E4F-B09F-1E46C40B2AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754B4BA6-C11E-4E4F-B09F-1E46C40B2AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754B4BA6-C11E-4E4F-B09F-1E46C40B2AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215584BA-E07C-4A61-B973-4790D0408F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215584BA-E07C-4A61-B973-4790D0408F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215584BA-E07C-4A61-B973-4790D0408F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215584BA-E07C-4A61-B973-4790D0408F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F54B32-3510-4F6E-B0E2-5CA5C823A560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F54B32-3510-4F6E-B0E2-5CA5C823A560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F54B32-3510-4F6E-B0E2-5CA5C823A560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F54B32-3510-4F6E-B0E2-5CA5C823A560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {673330CA-280F-44D6-83F7-EC2D7B2DD568}
+	EndGlobalSection
+EndGlobal
