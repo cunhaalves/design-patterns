@@ -11,11 +11,11 @@ namespace ObserverConsole
     {
         static void Main(string[] args)
         {
-            //ExecutaObserver();
-            ExecutaDecorator();
+            //RunObserver();
+            RunDecorator();
         }
 
-        static void ExecutaObserver()
+        static void RunObserver()
         {
             WeatherData weatherData = new WeatherData();
             CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
@@ -27,7 +27,7 @@ namespace ObserverConsole
             Console.ReadKey();
         }
 
-        static void ExecutaDecorator()
+        static void RunDecorator()
         {
             Beverage beverage = new Expresso();
             Console.WriteLine(beverage.GetDescription() + " $ "+ beverage.Cost());
